@@ -532,6 +532,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
+.pro-con {
+  margin-top: 2%;
+  color: #0c2e8a;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  margin-left: 40%;
+}
+
+
+
+
 /* About Section
 --------------------------------*/
 
@@ -543,11 +554,34 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
+.RnDimg {
+  overflow: hidden;
+}
+
+.con-img {
+  overflow: hidden;
+}
+
+
 #about .about-img img {
   margin-left: -15px;
   margin-top: 120px;
   max-width: 100%;
 }
+
+.RnDimg img {
+  margin-left: -15px;
+  margin-top: 85px;
+  max-width: 100%;
+}
+
+.con-img img {
+   margin-left: -40px;
+  margin-top: 150px;
+  max-width: 120%;
+  max-height: 80%;
+}
+
 
 #about .content h2 {
   color: #0c2e8a;
@@ -1043,6 +1077,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #0c2e8a;
 }
 
+
+
+
 @media (min-width: 768px) {
   #contact .contact-address,
   #contact .contact-phone,
@@ -1107,10 +1144,31 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: auto;
   }
 
+  .RnDimg {
+    height: auto;
+  }
+
+  .con-img {
+    height: auto;
+  }
+
+
   #about .about-img img {
     margin-left: 0;
     padding-bottom: 30px;
   }
+
+  .RnDimg img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+
+  .con-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+
+ 
 }
 
 @media (max-width: 767px) {
