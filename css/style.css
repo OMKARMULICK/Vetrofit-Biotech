@@ -586,10 +586,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .product-img img {
-  margin-left: -40px;
-  margin-top: -65px;
+  margin-left: 0px;
+  margin-top: -15px;
   max-width: 120%;
   max-height: 80%;
+  margin-bottom: -200px;
 }
 
 
